@@ -40,7 +40,7 @@ public class UserManagementController {
 	@Autowired
 	private UserRegistrationConfig userRegistrationConfig;
 
-	@GetMapping("/getAll")
+	@GetMapping("/all")
 	public List<User> getAllUsers() {
 		return service.findAll();
 	}

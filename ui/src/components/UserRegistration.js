@@ -51,6 +51,7 @@ export default function UserRegistration() {
                 name="password"
                 onChange={e => setPassword(e.target.value)}
                 value={password}
+                type="password"
               />
               <Button type="submit">Submit</Button>
             </Form>
