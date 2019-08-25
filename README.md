@@ -25,6 +25,17 @@ Components Used:
 * yarn i semantic-ui-react
 * yarn i eslint-plugin-react-hooks
 
+# User Form
+![](https://github.com/tushargoel86/user-registration/blob/master/images/UserRegistrationForm.PNG)
+
+# Success Message
+![](https://github.com/tushargoel86/user-registration/blob/master/images/Success.PNG)
+
+# Error Message
+![](https://github.com/tushargoel86/user-registration/blob/master/images/Error.PNG)
+
+
+
 # Backend
 * Spring Boot
 * API Gateway server (Zuul) 
