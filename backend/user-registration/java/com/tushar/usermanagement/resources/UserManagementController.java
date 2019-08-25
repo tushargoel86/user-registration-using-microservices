@@ -46,7 +46,7 @@ public class UserManagementController {
 	}
 
 	@CrossOrigin
-	@PostMapping("/register")
+	@PostMapping("/user")
 	public ResponseEntity<CustomResponse> registerUser(@Validated @RequestBody RegistrationRequest request) {
 		System.out.println(request);
 		User registeredUser = new User(request.getEmail(), request.getPassword());

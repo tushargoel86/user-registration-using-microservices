@@ -6,7 +6,7 @@ import Success from "./Success";
 import { URL } from "../constants/Constants";
 
 export function registerEmail(email, password, setRes) {
-  fetch(URL + "register", {
+  fetch(URL + "user", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
