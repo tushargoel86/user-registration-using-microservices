@@ -3,7 +3,7 @@ implementing user registration as part of an application that has a micro-servic
 
 
 Here we are implementing user registration as part of an application that has a micro-service architecture. Users register by 
-entering their email address and a password. The system then initiates an account creation workflow that includes creating the account in the database and sending an email to confirm their address. UI part of user registration but for now we will focus on the backend service. 
+entering their email address and a password. The system then initiates an account creation workflow that includes creating the account in the database and sending an email to confirm their address. 
 
 The following diagram shows the user registration service and how it fits into the overall system architecture.
 
