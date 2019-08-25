@@ -27,6 +27,8 @@ Components Used:
 
 # Backend
 * Spring Boot
+* API Gateway server (Zuul) 
+* Service Discovery (Eureka)
 * MongoDB
 * AMQP (RabbitMQ)
 
