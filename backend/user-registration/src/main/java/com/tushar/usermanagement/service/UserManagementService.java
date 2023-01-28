@@ -1,12 +1,11 @@
 package com.tushar.usermanagement.service;
 
+import com.tushar.usermanagement.repository.UserManagementRepository;
+import com.tushar.usermanagement.model.User;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.tushar.usermanagement.model.User;
-import com.tushar.usermanagement.repository.UserManagementRepository;
 
 @Service
 public class UserManagementService {
